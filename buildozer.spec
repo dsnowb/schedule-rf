@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = ScheduleRF
 
 # (str) Package name
-package.name = myapp
+package.name = schedulerf
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -36,7 +36,8 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = pyjnius,python3crystax==3.6,kivy
+# requirements = pyjnius,python3crystax==3.6,kivy
+requirements = python3crystax==3.6,kivy
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -86,10 +87,10 @@ fullscreen = 0
 
 # (list) Permissions
 # android.permissions = INTERNET
-android.permissions = CHANGE_NETWORK_STATE
+# android.permissions = INTERNET, CHANGE_NETWORK_STATE
 
 # (int) Android API to use
-#android.api = 19
+# android.api = 19
 
 # (int) Minimum API required
 #android.minapi = 9
