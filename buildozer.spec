@@ -85,8 +85,8 @@ fullscreen = 0
 #android.presplash_color = #FFFFFF
 
 # (list) Permissions
-# android.permissions = INTERNET
-# android.permissions = INTERNET, CHANGE_NETWORK_STATE
+# android.permissions = android.permission.INTERNET
+android.permissions = ACCESS_WIFI_STATE,CHANGE_WIFI_STATE
 
 # (int) Android API to use
 # android.api = 19
