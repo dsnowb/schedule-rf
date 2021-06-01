@@ -18,5 +18,5 @@ pyjnius==1.1.1
 requests==2.18.4
 sh==1.12.4
 six==1.11.0
-urllib3==1.22
+urllib3==1.26.5
 virtualenv==16.0.0
